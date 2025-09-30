@@ -104,7 +104,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 
     # -- add settings for R11 --
-	export FOX_R11=1
+	#export FOX_R11=1
 	export OF_SKIP_MULTIUSER_FOLDERS_BACKUP=0
 	export OF_QUICK_BACKUP_LIST="/boot;/dtbo;/data;/system_image;/vendor_image;"
 	# -- end R11 settings --
